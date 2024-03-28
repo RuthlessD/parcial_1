@@ -1,0 +1,109 @@
+*{
+
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+text-transform: capitalize;
+
+}
+
+header{
+
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 0; right: 0; top: 0;
+    padding: 0px 3rem;
+    background: black;
+    box-shadow: 0 10px 15px rgb(0, 151, 252);
+    z-index: 1000;
+
+}
+header .logo{
+
+    font-weight: bolder;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 230px;
+    height: 60px;
+    margin: 0.5rem;
+
+}
+header .menu .ul_menu .list_menu{
+
+    list-style-type: none;
+    position: relative;
+    float: left;
+    padding: 0px 20px;
+
+}
+header .menu .ul_menu .list_menu .tex_menu{
+
+    font-size: 17px;
+    color: white;
+    padding-top: 8px;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    display: block;
+
+}
+header .menu .ul_menu .list_menu .tex_menu:hover{
+
+    background: linear-gradient(160deg,#00fdd5,#0037ff);
+    color:black;
+    border-radius: 2rem;
+    padding: 10px;
+    font-weight: bolder;
+}
+header .menu .ul_menu .list_menu .ul_menu{
+
+    position: absolute;
+    left: 0;
+    width: 150px;
+    background: black;
+    display: none;
+
+}
+header .menu .ul_menu .list_menu:hover > .ul_menu{
+    display: initial;
+}
+#menu-bar{
+    display: none;
+}
+header .label{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 1187px){
+
+    header{
+        padding: 20px;
+    }
+    header .label{
+        display:initial;
+    }
+    header .menu{
+        position: absolute;
+        top: 112%; left:0; right:0;
+        background: black;
+        border-top: 1px solid rgba(rgb(0, 151, 252));
+        box-shadow: 0 10px 15px rgb(0, 151, 252);
+        display:none;
+    }
+    header .menu .ul_menu .list_menu{
+        width: 100%;
+    }
+    header .menu .ul_menu .list_menu .ul_menu{
+        position: relative;
+        width: 100%;
+    }
+    #menu-bar:checked ~ .menu{
+        display: initial;
+    }
+    
+}
