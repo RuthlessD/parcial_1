@@ -6,81 +6,94 @@
     <link rel="stylesheet" href="css/login_register.css" />
     <title>Iniciar Sesión</title>
   </head>
-  <body>
-    <div class="login">
-      <span class="animate"></span>
-      <span class="animate2"></span>
+  <div class="logoo">
+    <a href="index.html"><img class="logo" src="img/logo.png" /></a>
+    <body>
+      <div class="login">
+        <span class="animate"></span>
+        <span class="animate2"></span>
+        <div class="login-form log">
+          <h2 class="animation" style="--i: 1; --j: 22">Inicia Sesión</h2>
+          <form action="#">
+            <div class="input-box animation" style="--i: 2; --j: 23">
+              <input type="text" required />
+              <label>Correo o nombre de usuario</label>
+              <i class="icon"><ion-icon name="contact"></ion-icon></i>
+            </div>
+            <div class="input-box animation" style="--i: 3; --j: 24">
+              <input type="password" required />
+              <label>Contraseña</label>
+              <i class="icon"><ion-icon name="lock"></ion-icon> </i>
+            </div>
 
-      <div class="login-form log">
-        <a href="index.html"><img class="logo" src="img/logo.png" /></a>
-        <h2>Inicia Sesión</h2>
-        <form action="#">
-          <div class="input-box">
-            <input type="text" required />
-            <label>Correo o nombre de usuario</label>
-            <i class="icon"><ion-icon name="contact"></ion-icon></i>
-          </div>
-          <div class="input-box">
-            <input type="password" required />
-            <label>Contraseña</label>
-            <i class="icon"><ion-icon name="lock"></ion-icon> </i>
-          </div>
+            <button class="btn animation" style="--i: 4; --j: 25" type="submit">
+              Iniciar
+            </button>
+            <div class="pass animation" style="--i: 5; --j: 26">
+              <a href="#" class="pass-link"> He olbidado mi contraseña</a>
+            </div>
+            <div class="crea-cuenta animation" style="--i: 6; --j: 27">
+              <p>
+                ¿Primera vez en SeguryMail?
+                <a href="#" class="register-link">Crea una cuenta</a>
+              </p>
+            </div>
+          </form>
+        </div>
+        <div class="info-text login">
+          <h2 class="animation" style="--i: 0; --j: 20">
+            ¡Bienvenido de Nuevo!
+          </h2>
+          <p class="animation" style="--i: 1; --j: 21">
+            citationem odio quos quas officiis voluptates repellat itaque
+            possimus? Recusandae labore nobis laudantium
+          </p>
+        </div>
 
-          <button class="btn" type="submit">Iniciar</button>
-          <div class="pass">
-            <a href="#">He olbidado mi contraseña</a>
-          </div>
-          <div class="crea-cuenta">
-            <p>
-              ¿No tienes una cuenta SeguryMail?
-              <a href="#">Registrate ahora</a>
-            </p>
-          </div>
-        </form>
+        <div class="login-form regis">
+          <h2 class="animation" style="--i: 20; --j: 1">
+            Crea Una Cuenta Gratuita
+          </h2>
+          <form action="">
+            <div class="input-box animation" style="--i: 21; --j: 2">
+              <input type="text" required />
+              <label>Nombre de usuario</label>
+              <i class="icon"><ion-icon name="person-add"></ion-icon> </i>
+            </div>
+            <div class="input-box animation" style="--i: 22; --j: 3">
+              <input type="text" required />
+              <label>Correo</label>
+              <i class="icon"><ion-icon name="mail"></ion-icon> </i>
+            </div>
+            <div class="input-box animation" style="--i: 23; --j: 4">
+              <input type="password" required />
+              <label>Contraseña</label>
+              <i class="icon"><ion-icon name="lock"></ion-icon></i>
+            </div>
+            <button class="btn animation" style="--i: 24; --j: 5" type="submit">
+              Crear cuenta
+            </button>
+            <div class="crear-cuenta animation" style="--i: 25; --j: 6">
+              <p>
+                Si ya tienes una cuenta.
+                <a href="#" class="login-link"> Inicia sesión</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="info-text regis">
+          <h2 class="animation" style="--i: 19; --j: 0">
+            Registrese para usar SeguryMail
+          </h2>
+          <p class="animation" style="--i: 20; --j: 1">
+            Estamos muy contentos de que esté aquí! Cree su cuenta de correo
+            electrónico con SeguryMail ahora.
+          </p>
+        </div>
       </div>
-      <div class="info-text login">
-        <h2>Bienvenido de Nuevo</h2>
-        <p>
-          citationem odio quos quas officiis voluptates repellat itaque
-          possimus? Recusandae labore nobis laudantium
-        </p>
-      </div>
-
-      <div class="login-form regis">
-        <a href="index.html"><img class="logo" src="img/logo.png" /></a>
-        <h2>Crea Una Cuenta Gratuita</h2>
-        <form action="">
-          <div class="input-box">
-            <input type="text" required />
-            <label>Nombre de usuario</label>
-            <i class="icon"><ion-icon name="person-add"></ion-icon> </i>
-          </div>
-          <div class="input-box">
-            <input type="text" required />
-            <label>Correo</label>
-            <i class="icon"><ion-icon name="mail"></ion-icon> </i>
-          </div>
-          <div class="input-box">
-            <input type="password" required />
-            <label>Contraseña</label>
-            <i class="icon"><ion-icon name="lock"></ion-icon></i>
-          </div>
-          <button class="btn" type="submit">Registrarse</button>
-          <div class="crear-cuenta">
-            <p>Si ya tienes una cuenta <a href="#"> Inicia Sesión</a></p>
-          </div>
-        </form>
-      </div>
-
-      <div class="info-text regis">
-        <h2>Bienvenido de Nuevo</h2>
-        <p>
-          citationem odio quos quas officiis voluptates repellat itaque
-          possimus? Recusandae labore nobis laudantium
-        </p>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-  </body>
+      <script src="main.js"></script>
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    </body>
+  </div>
 </html>

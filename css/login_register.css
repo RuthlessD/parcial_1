@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.logoo .logo{
+    font-weight: bolder;
+    
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 230px;
+    height: 60px;
+    
+}
+
 body{
 
     display: flex;
@@ -17,24 +28,14 @@ body{
 .login{
 
     position: relative;
-    width: 850px;
-    height: 600px;
+    width: 800px;
+    height: 540px;
     background: transparent;
     border: 1px solid #0ef;
     box-shadow: 0 0 25px #0ef;
-    overflow: hidden;
     border-right: none;
+    overflow: hidden;
 
-}
-
-.logo{
-
-    font-weight: bolder;
-    border-radius: 2rem;
-    cursor: pointer;
-    width: 230px;
-    height: 60px;
-    
 }
 
 .login .login-form{
@@ -46,6 +47,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
 
 }
 
@@ -57,13 +59,57 @@ body{
 
 }
 
+.login .login-form.log .animation{
+
+    transform: translateX(0);
+    opacity: 1;
+    filter: blur(0);
+    transition: .7s ease;
+    transition-delay: calc(.1s *var(--j)) ;
+
+
+}
+
+.login.active .login-form.log .animation{
+
+    transform: translateX(-120%);
+    opacity: 0;
+    filter: blur(10px);
+    transition-delay: calc(.1s *var(--i)) ;
+
+}
+
+
 .login .login-form.regis{
 
     right: 0;
     padding: 0 40px 0 60px;
-    display: none;
+    pointer-events: none;
     
+}
 
+.login.active .login-form.regis{
+    
+    pointer-events: auto;
+
+}
+
+.login .login-form.regis .animation{
+
+    transform: translateX(120%) ;
+    opacity: 0;
+    filter: blur(10px);
+    transition: .8s ease;
+    transition-delay: calc(.1s *var(--j)) ;
+    
+}
+
+.login.active .login-form.regis .animation{
+    
+    transform: translateX(0) ;
+    opacity: 1;
+    filter: blur(0);
+    transition-delay: calc(.1s *var(--i)) ;
 }
 
 .login .login-form h2{
@@ -90,7 +136,8 @@ body{
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid  white;
+    border-bottom: 2px solid  white;
+    padding-right: 28px;
     font-size: 17px;
     color: #fff;
     font-weight: 500;
@@ -114,6 +161,7 @@ body{
     font-size: 18px;
     color: white;
     pointer-events: none;
+    transition: .5s;
 
 }
 
@@ -156,7 +204,7 @@ body{
     cursor: pointer;
     font-size: 18px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 300;
     margin-top: 5px;
     margin-bottom: 20px;
     z-index: 1;
@@ -234,25 +282,71 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-left: none;
+    border:none ;
 
 }
 
 .login .info-text.login{
     left: 50%;
-
     right: 0;
     text-align: right;
-    padding: 0 40px 60px 150px;
+    padding: 0 40px 60px 130px;
     
     
+}
+
+.login .info-text.login .animation{
+
+    transform: translateX(0);
+    opacity: 1;
+    filter: blur(0);
+    transition: .7s ease;
+    transition-delay: calc(.1s *var(--j)) ;
+
+
+}
+
+.login.active .info-text.login .animation{
+
+    transform: translateX(120%);
+    opacity: 0;
+    filter: blur(10px);
+    transition-delay: calc(.1s *var(--i)) ;
+
 }
 
 .login .info-text.regis{
     left: 0;
     text-align: left;
-    padding: 0 150px 60px 40px;
-    display: none;
+    padding: 0 130px 60px 40px;
+    pointer-events: none;
+   
+}
+
+.login.active .info-text.regis .animation{
+
+    pointer-events: auto;
+
+}
+
+.login .info-text.regis .animation{
+
+    transform: translateX(-120%) ;
+    opacity: 0;
+    filter: blur(10px);
+    transition: .8s;
+    transition-delay: calc(.1s *var(--j)) ;
+
+}
+
+.login.active .info-text.regis .animation{
+
+    transform: translateX(0) ;
+    opacity: 1;
+    filter: blur(0);
+    transition-delay: calc(.1s *var(--i)) ;
+    
+    
 }
 
 .info-text h2{
@@ -273,43 +367,42 @@ body{
     position: absolute;
     top: -4px;
     right: 0;
-    width: 1050px;
-    height: 800px;
+    width: 850px;
+    height: 750px;
     background: linear-gradient(45deg, #081b29,#0ef);
     border-bottom: 1px solid  #0ef;
    transform: rotate(10deg) skewY(45deg);
-    /*transform: rotate(0) skewY(0);*/
     transform-origin: bottom right;
+    transition:  1.5s ease;
+    transition-delay: 1.6s;
+
+}
+
+.login.active .animate{
+  
+    transform: rotate(0) skewY(0);
+    transition-delay:.5s;
+    
 }
 
 .login .animate2{
     position: absolute;
     top: 100%;
     left: 300px;
-    width: 1050px;
-    height: 900px;
+    width: 950px;
+    height: 800px;
     background: #081b29;
     border-top: 1px solid  #0ef;
-    /*transform: rotate(-11deg) skewY(-41deg);*/
     transform: rotate(0) skewY(0);
     transform-origin: bottom left;
+    transition: 1.5s;
+    transition-delay: .5s;
 }
 
 
-
-
-
-
-
-
-
-.registrar_cuenta .logo{
-
-    font-weight: bolder;
-    border-radius: 2rem;
-    cursor: pointer;
-    width: 230px;
-    height: 60px;
-    margin: 0.5rem;
-
+.login.active .animate2{
+    
+    transform: rotate(-11deg) skewY(-45deg);
+    transition-delay:1.2s;
+    
 }
