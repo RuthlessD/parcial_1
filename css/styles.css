@@ -4,8 +4,8 @@ margin: 0;
 padding: 0;
 text-decoration: none;
 box-sizing: border-box;
-text-transform: capitalize;
-
+font-family: "Lora", serif;
+font-optical-sizing: auto;
 }
 
 header{

@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/login_register.css" />
     <title>Iniciar Sesión</title>
   </head>
@@ -16,17 +22,22 @@
           <h2 class="animation" style="--i: 1; --j: 22">Inicia Sesión</h2>
           <form action="#">
             <div class="input-box animation" style="--i: 2; --j: 23">
-              <input type="text" required />
-              <label>Correo o nombre de usuario</label>
+              <input type="email" id="email" required />
+              <label>Correo</label>
               <i class="icon"><ion-icon name="contact"></ion-icon></i>
             </div>
             <div class="input-box animation" style="--i: 3; --j: 24">
-              <input type="password" required />
+              <input type="password" id="password" required />
               <label>Contraseña</label>
               <i class="icon"><ion-icon name="lock"></ion-icon> </i>
             </div>
 
-            <button class="btn animation" style="--i: 4; --j: 25" type="submit">
+            <button
+              class="btn animation"
+              style="--i: 4; --j: 25"
+              type="submit"
+              id="login"
+            >
               Iniciar
             </button>
             <div class="pass animation" style="--i: 5; --j: 26">
@@ -56,21 +67,27 @@
           </h2>
           <form action="">
             <div class="input-box animation" style="--i: 21; --j: 2">
-              <input type="text" required />
+              <input type="text" id="username" required />
               <label>Nombre de usuario</label>
               <i class="icon"><ion-icon name="person-add"></ion-icon> </i>
             </div>
             <div class="input-box animation" style="--i: 22; --j: 3">
-              <input type="text" required />
+              <input type="email" id="email1" required />
               <label>Correo</label>
               <i class="icon"><ion-icon name="mail"></ion-icon> </i>
             </div>
             <div class="input-box animation" style="--i: 23; --j: 4">
-              <input type="password" required />
+              <input type="password" id="password1" required />
               <label>Contraseña</label>
               <i class="icon"><ion-icon name="lock"></ion-icon></i>
             </div>
-            <button class="btn animation" style="--i: 24; --j: 5" type="submit">
+            <button
+              class="btn animation"
+              style="--i: 24; --j: 5"
+              type="submit"
+              value="Sign up"
+              id="registro"
+            >
               Crear cuenta
             </button>
             <div class="crear-cuenta animation" style="--i: 25; --j: 6">
@@ -93,7 +110,15 @@
         </div>
       </div>
       <script src="main.js"></script>
-      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+      <script src="login_register.js" type="module"></script>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
     </body>
   </div>
 </html>
