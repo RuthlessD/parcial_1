@@ -50,8 +50,25 @@
         </ul>
       </nav>
     </header>
+
     <div class="video">
-      <video src="img/video.mp4" autoplay></video>
+      <figure>
+        <video src="img/video.mp4" autoplay></video>
+        <div class="video-texto">
+          <h1>Enviar su formulario</h1>
+          <form class="form" action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" />
+            <label for="email">Correo</label>
+            <input type="email" name="email" id="email" />
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" id="subject" />
+            <label for="coments">Comentarios</label>
+            <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+            <input class="btn" type="submit" value="Enviar" />
+          </form>
+        </div>
+      </figure>
     </div>
 
     <footer>

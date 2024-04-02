@@ -50,6 +50,8 @@ header .menu .ul_menu .list_menu .tex_menu{
     display: block;
 
 }
+/*El hover es para que cambie de color cuando
+el cursor se para ensima de el objeto */
 header .menu .ul_menu .list_menu .tex_menu:hover{
 
     background: linear-gradient(160deg,#00fdd5,#0037ff);
@@ -67,6 +69,8 @@ header .menu .ul_menu .list_menu .ul_menu{
     display: none;
 
 }
+/*El hover es para que cambie de color cuando
+el cursor se para ensima de el objeto */
 header .menu .ul_menu .list_menu:hover > .ul_menu{
     display: initial;
 }
@@ -152,7 +156,8 @@ header .label{
     color: white;
 
 }
-
+/*El hover es para que cambie de color cuando
+el cursor se para ensima de el objeto */
 .cont figure:hover > .cont-texto{
     opacity: 1;
     visibility: visible;
@@ -384,4 +389,150 @@ footer{
     max-width: 80%;
     padding: 20px;
    
+}
+
+/*Informacion*/
+
+/*Contacto*/
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ .video figure{
+    
+    position: relative;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.884);
+    cursor: pointer;
+    border-radius: 2rem;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+ }
+ .video figure video{
+    width: 112%;
+    height: 100%;
+    transition: all 500ms ease-out;
+
+}
+
+.video figure .video-texto{
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.719);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    color: white;
+   
+}
+
+.video figure:hover > .video-texto{
+    opacity: 1;
+    visibility: visible;
+}
+.video figure:hover > .video-texto h1{
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right:10px;
+
+}
+
+.video figure .video-texto h1{
+    font-size: 40px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    transition:  all 500ms ease-out;
+
+}
+.video figure .video-texto .form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.video figure .video-texto .form label{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.video figure .video-texto .form input{
+    padding: 10px 10px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px;
+    background: rgba(169, 178, 209, 0.466);
+    font-size: 18px;
+   
+}
+/*para color del borde en el input y
+ el color de la letra que va dentro*/
+.video figure .video-texto .form input:focus{
+    outline: 1px solid rgb(0, 153, 255);
+    color: white;
+    font-size: 16px;
+}
+
+
+.video figure .video-texto .form textarea{
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px;
+    background: rgba(169, 178, 209, 0.466);
+    font-size: 18px;
+    
+}
+/*para color del borde en el texarea y
+ el color de la letra que va dentro*/
+.video figure .video-texto .form textarea:focus{
+    outline: 1px solid rgb(0, 153, 255);
+    color: white;
+    font-size: 16px;
+}
+
+.video figure .video-texto .form .btn{
+    background: rgb(0, 119, 255);
+    color: white;
+    box-shadow: 2px 2px 3px 3px rgb(0, 119, 255) ;
+    width: 160px;
+    cursor: pointer;
+}
+/*El hover es para que cambie de color cuando
+el cursor se para ensima de el objeto */
+.video figure .video-texto .form .btn:hover{
+    background: linear-gradient(120deg,rgb(0, 119, 255),rgb(0, 0, 0),rgb(0, 119, 255));
+}
+
+/*Responsivo contactanos*/
+@media(max-width: 999px){
+    
+    .video figure{
+        width: 100%;
+        height: 720px;
+
+    }
+    .video figure video{
+        width: 370%;
+        height: 100%;
+    }
+    .video figure .video-texto .form input{
+        width: 300px;
+    }
+    .video figure .video-texto .form textarea{
+    width: 300px;
+   }
 }
