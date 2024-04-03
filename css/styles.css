@@ -288,6 +288,7 @@ el cursor se para ensima de el objeto */
 .cont2 p{
     max-width: 50%;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 /*footer*/
@@ -295,7 +296,6 @@ footer{
  background: black;
  display: flex;
  justify-content: center;
-
  box-shadow: 0 0px 15px 15px rgb(0, 151, 252);
 }
  footer .footer-titulo{
@@ -359,7 +359,7 @@ footer{
  /*productos*/
  .cont-ser{
     display:flex;
-    background: linear-gradient(120deg,rgb(0, 17, 255), rgb(0, 0, 0),rgb(0, 17, 255),rgb(0, 0, 0),rgb(0, 17, 255));
+    background: linear-gradient(120deg,rgb(0, 58, 82), rgb(0, 0, 0),rgb(0, 58, 82),rgb(0, 0, 0),rgb(0, 58, 82));
     padding-left: 60px;
     padding-right: 60px;
     margin-top: 40px;
@@ -424,14 +424,174 @@ footer{
 }
 
 /*Informacion*/
+.informacion{
+    background: linear-gradient(120deg,rgb(0, 58, 82), rgb(0, 0, 0),rgb(0, 58, 82),rgb(0, 0, 0),rgb(0, 58, 82));
+    margin-top: 80px;
+    color: white;
+   
+}
+.informacion .info{
+    padding: 60px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.informacion .info h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.informacion .info a{
+    color:rgb(0, 151, 252) ;
+    font-size: 20px;
+    line-height: 2;
+  
+    
+
+}
+
+.informacion .info p{
+    color:white ;
+    font-size: 20px;
+    line-height: 2;
+    padding: 10px;
+}
+
+.informacion .historia{
+    padding-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    max-width: 80%;
+    margin: auto;
+
+}
+
+.informacion .historia h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.informacion .historia li{
+    color:rgb(255, 255, 255) ;
+    font-size: 20px;
+    line-height: 2;
+    padding: 10px;
+
+}
+
+.informacion .historia p{
+    color:white ;
+    font-size: 20px;
+    line-height: 2;
+    padding: 10px;
+}
 
 
+
+/*Nosotros*/
+.nosotros{
+    background: linear-gradient(120deg,rgb(0, 58, 82), rgb(0, 0, 0),rgb(0, 58, 82),rgb(0, 0, 0),rgb(0, 58, 82));
+    margin-top: 80px;
+    color: white;
+}
+
+.nosotros .nos{
+    padding-top:60px;
+    color: white;
+    max-width: 70%;
+    margin: auto;
+}
+.nosotros .nos h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+.nosotros .nos p{
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.nosotros .vision-mision{
+    background: rgba(255, 255, 255, 0.205);
+    margin: 80px;
+    padding: 60px;
+    border-radius: 2rem;
+    display: flex;
+}
+.nosotros .vision-mision .mision{
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    line-height: 1.5;
+    background: rgba(0, 0, 0, 0.267);
+    border-radius: 10rem;
+    
+}
+.nosotros .vision-mision .mision h2{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.nosotros .vision-mision .vision{
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    line-height: 1.5;
+    background: rgba(0, 0, 0, 0.267);
+    border-radius: 10rem;
+}
+.nosotros .vision-mision .vision h2{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.nosotros .valores{
+    background: rgba(255, 255, 255, 0.205);
+    margin: 60px;
+    padding: 30px;
+    border-radius: 2rem;
+    
+    
+}
+.nosotros .valores .cont-valores{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.nosotros .valores .cont-valores h3{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nosotros .diferencias{
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 100px;
+
+}
+.nosotros .diferencias h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.nosotros .diferencias li{
+    font-size: 20px;
+    line-height: 2;
+
+}
 
 /*Contacto*/
 .video{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
     
 }
 
