@@ -295,7 +295,7 @@ footer{
  background: black;
  display: flex;
  justify-content: center;
- margin-top: 100px;
+
  box-shadow: 0 0px 15px 15px rgb(0, 151, 252);
 }
  footer .footer-titulo{
@@ -323,6 +323,38 @@ footer{
     padding: 10px;
 
  }
+
+ @media(max-width: 989px){
+
+    footer .footer-titulo{
+        margin-top: 10px ;
+        margin-bottom: 10px;
+        margin-left:20px ;
+        margin-right:20px ;
+    }
+    
+    footer .footer-texto{
+        margin-top: 10px ;
+        margin-bottom: 10px;
+        margin-left:20px ;
+        margin-right:20px ;
+    }
+ }
+
+ @media(max-width: 625px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-titulo{
+        margin: 5px;
+    }
+    
+    footer .footer-texto{
+        margin: 5px 
+ }
+}
 
  /*productos*/
  .cont-ser{
@@ -392,6 +424,8 @@ footer{
 }
 
 /*Informacion*/
+
+
 
 /*Contacto*/
 .video{
@@ -535,4 +569,94 @@ el cursor se para ensima de el objeto */
     .video figure .video-texto .form textarea{
     width: 300px;
    }
+}
+
+
+/*Precios*/
+.precios{
+    background: black;
+   color: white;
+   padding-left: 10px; 
+   padding-right: 10px; 
+   padding-top: 10px; 
+   padding-bottom: 100px; 
+}
+.precios h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+.precios h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+.precios h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.precios p{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px;
+}
+
+.precios .personal{
+    background: rgba(255, 255, 255, 0.151);
+    border-radius: 2rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 50px;
+    color:white;
+    display:flex;
+    justify-content: center;
+
+}
+
+.precios .personal .plan{
+    background: rgba(255, 255, 255, 0.288);
+    border-radius: 2rem;
+    padding: 30px;
+    margin: 20px;
+}
+
+.precios .familiar{
+    background: rgba(255, 255, 255, 0.151);
+    border-radius: 2rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 50px;
+    color:white;
+    display:flex;
+    justify-content: center;
+
+}
+.precios .familiar .plan{
+    background: rgba(255, 255, 255, 0.288);
+    border-radius: 2rem;
+    padding: 30px;
+    margin: 20px;
+}
+
+.precios .empresa{
+    background: rgba(255, 255, 255, 0.151);
+    border-radius: 2rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 50px;
+    color:white;
+    display:flex;
+    justify-content: center;
+
+}
+.precios .empresa .plan{
+    background: rgba(255, 255, 255, 0.288);
+    border-radius: 2rem;
+    padding: 30px;
+    margin: 20px;
 }
