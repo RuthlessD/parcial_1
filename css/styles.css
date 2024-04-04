@@ -431,7 +431,10 @@ footer{
    
 }
 .informacion .info{
-    padding: 60px;
+    
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
     max-width: 80%;
     margin: auto;
 }
@@ -458,10 +461,10 @@ footer{
 }
 
 .informacion .historia{
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 60px;
+    ;
     max-width: 80%;
     margin: auto;
 
@@ -469,7 +472,10 @@ footer{
 
 .informacion .historia h1{
     text-align: center;
-    padding: 30px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-top: 40px;
 }
 
 .informacion .historia li{
