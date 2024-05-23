@@ -1,4 +1,4 @@
-# Seguri Mail
+# Segury Mail
 
 ## ¿Qué es Segury Mail?
 
