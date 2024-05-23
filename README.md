@@ -1,10 +1,31 @@
 # Seguri Mail
 
-## Creación de proyecto
+## ¿Qué es Segury Mail?
 
-## Protección contra ataques cibernéticos
+<p>Un proyecto de correo seguro para prevenir el phishing y otros delitos informáticos en correos personales e institucionales. Nuestro objetivo es proporcionar un nivel avanzado de seguridad, dificultando así que los ciberdelincuentes estafen a los usuarios.</p>
 
-## Protection against cybernetics attacks
+
+## Planteamiento del problema
+
+<p>Garantizar la privacidad y seguridad de los correos electrónicos
+institucionales es un desafío constante en la era digital en la que
+vivimos. Las empresas y organizaciones necesitan enviar y recibir
+correos electrónicos para comunicarse y realizar sus operaciones
+diarias, pero al mismo tiempo deben asegurarse de cumplir con las
+medidas de privacidad y protección de los datos personales.</p>
+
+## Problema: 
+<p>
+En la actualidad, garantizar la seguridad y privacidad de los usuarios en el entorno de
+los correos electrónicos es un desafío significativo ya que existen significativas 
+vulnerabilidades a las que los usuarios pueden estar expuestos, lo que pone en riesgo la 
+privacidad y la integridad de la información. 
+Además, asegurar la privacidad de los datos personales en los correos electrónicos es crucial, 
+considerando las medidas de privacidad y medidas de protección.
+</p>
+
+#### Protection against cybernetics attacks
+#### Protección contra ataques cibernéticos
 
 <p>
 
@@ -18,15 +39,7 @@ Facultad de Sistemas, Escuela Tecnológica Instituto Técnico Central
 
 </p>
 
-## Problema: 
-<p>
-    En la actualidad, garantizar la seguridad y privacidad de los usuarios en el entorno de
-los correos electrónicos es un desafío significativo ya que existen significativas 
-vulnerabilidades a las que los usuarios pueden estar expuestos, lo que pone en riesgo la 
-privacidad y la integridad de la información. 
-Además, asegurar la privacidad de los datos personales en los correos electrónicos es crucial, 
-considerando las medidas de privacidad y medidas de protección.
-</p>
+
 
 ## Sergio David Andrade Valencia
 
@@ -44,6 +57,23 @@ considerando las medidas de privacidad y medidas de protección.
 -	Desarrollar una interfaz de usuario intuitiva y amigable que permita a los usuarios enviar, recibir y gestionar correos electrónicos de manera eficiente.
 
 </p>
+
+### Manuel David Sisa Zúñiga
+
+## 2.	Objetivo General
+<p>
+Crear la interfas grafica de inicio con el fin de atraer a los usuarios a nuetro sitio web de correo seguro. 
+</p>
+
+## 3.	Objetivos Específicos: 
+
+<p>
+-	Implementar la bandeja de entrada utilizando herramientas como Visual Studio, Eclipse y Tomcat y GitHub.
+
+-	Desarrollar una interfaz de usuario intuitiva y amigable que permita a los usuarios enviar, recibir y gestionar correos electrónicos de manera eficiente.
+
+</p>
+
 
  ## 4.	Implementación:
 <p>
