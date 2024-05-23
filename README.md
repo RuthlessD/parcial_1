@@ -89,14 +89,22 @@ Crear la interfas grafica de inicio con el fin de atraer a los usuarios a nuetro
 </p>
 <p>Para la respectiva implementacion de las tareas y actividades se trabajara con las siguientes herramientas:
 
+  _**Editores de codigo fuente**_
+
 * _Eclipse_
+  
 * _Visual Studio Code_
   
 _**Lenguajes de programacion**_
-*Java
-*Javascript
-*HTML 5
-*CSS
+
+* Java
+
+* Javascript
+
+* HTML 5
+
+* CSS
+
 _**Base de datos**_
 </p>
 
