@@ -81,7 +81,7 @@ Crear la interfas grafica de inicio con el fin de atraer a los usuarios a nuetro
 ## 	Objetivos Específicos: 
 
 <p>
-*	Implementar los botoles o enlaser que permitan al usuarion navegar por nuestros servicios y ver los servicios que ofrecemos. 
+* Implementar los botoles o enlaser que permitan al usuarion navegar por nuestros servicios y ver los servicios que ofrecemos. 
 
 *	Desarrollar un aparatado de contactanos en la cual le permita a los usuarios comunicasre por medio de un formulario.
   
@@ -129,7 +129,6 @@ programación, como HTML, Java y CSS, para crear una página web dinámica y rob
  ## 5.	Requisitos del sitio Web: 
 
  <p>
-
 * Escabilidad: El sistema tendrá que ser capaz de enviar correos electrónicos de manera eficiente.
 * Funcionalidad: La bandeja de entrada tendrá lo estándar de un correo de enviar, recibir y filtrar
 </p>
