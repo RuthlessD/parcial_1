@@ -59,13 +59,15 @@ Crear una aplicación o un sistema operativo que permita aprender de los posible
 ## 	Objetivo Principal: 
 
 <p>
-+ Crear una página web que albergue una bandeja de entrada de correo electrónico que permitirá el envío y la recepción de correos electrónicos mediante un      sistema de cifrado. Se utilizarán tecnologías como HTML, CSS, Java, JavaScript, Servlets y JSP para lograr una implementación segura y eficiente.
+  
+* Crear una página web que albergue una bandeja de entrada de correo electrónico que permitirá el envío y la recepción de correos electrónicos mediante un      sistema de cifrado. Se utilizarán tecnologías como HTML, CSS, Java, JavaScript, Servlets y JSP para lograr una implementación segura y eficiente.
 </p>
 
 ## 	Objetivos Específicos: 
 
 <p>
--	Implementar la bandeja de entrada utilizando herramientas como Visual Studio, Eclipse y Tomcat y GitHub.
+  
+*	Implementar la bandeja de entrada utilizando herramientas como Visual Studio, Eclipse y Tomcat y GitHub.
 
 -	Desarrollar una interfaz de usuario intuitiva y amigable que permita a los usuarios enviar, recibir y gestionar correos electrónicos de manera eficiente.
 
@@ -81,7 +83,8 @@ Crear la interfas grafica de inicio con el fin de atraer a los usuarios a nuetro
 ## 	Objetivos Específicos: 
 
 <p>
-+ Implementar los botoles o enlaser que permitan al usuarion navegar por nuestros servicios y ver los servicios que ofrecemos. 
+  
+  * Implementar los botoles o enlaser que permitan al usuarion navegar por nuestros servicios y ver los servicios que ofrecemos. 
 
 +	Desarrollar un aparatado de contactanos en la cual le permita a los usuarios comunicasre por medio de un formulario.
   
@@ -129,13 +132,14 @@ programación, como HTML, Java y CSS, para crear una página web dinámica y rob
  ## 5.	Requisitos del sitio Web: 
 
  <p>
+
 * Escabilidad: El sistema tendrá que ser capaz de enviar correos electrónicos de manera eficiente.
 * Funcionalidad: La bandeja de entrada tendrá lo estándar de un correo de enviar, recibir y filtrar
 </p>
 
 ## 6.	Contribución: 
 <p>
-+ Claramente manejar una aplicación diferente de correo permite una forma diferente de enviar correos de manera que este aplicativo siempre estará en mejora actualizándolo y agregándole más seguridad que un servicio de Outlook, Gmail etc. 
+Claramente manejar una aplicación diferente de correo permite una forma diferente de enviar correos de manera que este aplicativo siempre estará en mejora actualizándolo y agregándole más seguridad que un servicio de Outlook, Gmail etc. 
 </p>
 
 
