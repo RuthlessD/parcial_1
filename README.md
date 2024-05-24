@@ -15,11 +15,11 @@
 
 </p>
 
-## ¿Qué es Segury Mail?
+## 1. ¿Qué es Segury Mail?
 
 <p>Un proyecto de correo seguro para prevenir el phishing y otros delitos informáticos en correos personales e institucionales. Nuestro objetivo es proporcionar un nivel avanzado de seguridad, dificultando así que los ciberdelincuentes estafen a los usuarios.</p>
 
-## Problema
+## 2. Problema
 <p>
 En la actualidad, garantizar la seguridad y privacidad de los usuarios en el entorno de
 los correos electrónicos es un desafío significativo ya que existen significativas 
@@ -42,7 +42,7 @@ diarias, pero al mismo tiempo deben asegurarse de cumplir con las
 medidas de privacidad y protección de los datos personales.</p>
 
 
-# Objetivos del proyecto
+# 3. Objetivos del proyecto
 
 ## Objetivo general
 
