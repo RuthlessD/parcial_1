@@ -50,9 +50,11 @@ Crear una aplicación o un sistema operativo que permita aprender de los posible
 
 ## Objetivos específicos
 
-•	Conocer el impacto y las consecuencias que ha causado los hackers en la sociedad y en las universidades.
-•	Implementar estrategias para la protección contra ataques cibernéticos de temáticas didácticas para el desarrollo del proyecto.
-•	Con la aplicación que se creara dar a entender lo que sería un hacking ético con el fin de concientizar a los estudiantes.
+*	Conocer el impacto y las consecuencias que ha causado los hackers en la sociedad y en las universidades.
+  
+*	Implementar estrategias para la protección contra ataques cibernéticos de temáticas didácticas para el desarrollo del proyecto.
+  
+*	Con la aplicación que se creara dar a entender lo que sería un hacking ético con el fin de concientizar a los estudiantes.
 
 ## Sergio David Andrade Valencia
 
