@@ -7,27 +7,17 @@
 
 + _Manuel David Sisa Zúñiga_
 
-+ Escuela Tecnológica Instituto Técnico Central
++ _Escuela Tecnológica Instituto Técnico Central_
 
-+ Facultad de Sistemas
++ _Facultad de Sistemas_
 
-+ 22 de mayo del 2024
++ _22 de mayo del 2024_
 
 </p>
 
 ## ¿Qué es Segury Mail?
 
 <p>Un proyecto de correo seguro para prevenir el phishing y otros delitos informáticos en correos personales e institucionales. Nuestro objetivo es proporcionar un nivel avanzado de seguridad, dificultando así que los ciberdelincuentes estafen a los usuarios.</p>
-
-
-## Planteamiento del problema
-
-<p>Garantizar la privacidad y seguridad de los correos electrónicos
-institucionales es un desafío constante en la era digital en la que
-vivimos. Las empresas y organizaciones necesitan enviar y recibir
-correos electrónicos para comunicarse y realizar sus operaciones
-diarias, pero al mismo tiempo deben asegurarse de cumplir con las
-medidas de privacidad y protección de los datos personales.</p>
 
 ## Problema
 <p>
@@ -39,11 +29,20 @@ Además, asegurar la privacidad de los datos personales en los correos electrón
 considerando las medidas de privacidad y medidas de protección.
 </p>
 
-#### Protection against cybernetics attacks
-#### Protección contra ataques cibernéticos
+#### _Protection against cybernetics attacks_
+#### _Protección contra ataques cibernéticos_
+
+## Planteamiento del problema
+
+<p>Garantizar la privacidad y seguridad de los correos electrónicos
+institucionales es un desafío constante en la era digital en la que
+vivimos. Las empresas y organizaciones necesitan enviar y recibir
+correos electrónicos para comunicarse y realizar sus operaciones
+diarias, pero al mismo tiempo deben asegurarse de cumplir con las
+medidas de privacidad y protección de los datos personales.</p>
 
 
-# 	Objetivos del proyecto
+# Objetivos del proyecto
 
 ## Objetivo general
 
@@ -54,8 +53,6 @@ Crear una aplicación o un sistema operativo que permita aprender de los posible
 •	Conocer el impacto y las consecuencias que ha causado los hackers en la sociedad y en las universidades.
 •	Implementar estrategias para la protección contra ataques cibernéticos de temáticas didácticas para el desarrollo del proyecto.
 •	Con la aplicación que se creara dar a entender lo que sería un hacking ético con el fin de concientizar a los estudiantes.
-
-
 
 ## Sergio David Andrade Valencia
 
