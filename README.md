@@ -1,5 +1,20 @@
 # Segury Mail
 
+## Encargados del desarrollo del proyecto
+<p>
+
++ _Sergio David Andrade Valencia_
+
++ _Manuel David Sisa Zúñiga_
+
++ Escuela Tecnológica Instituto Técnico Central
+
++ Facultad de Sistemas
+
++ 22 de mayo del 2024
+
+</p>
+
 ## ¿Qué es Segury Mail?
 
 <p>Un proyecto de correo seguro para prevenir el phishing y otros delitos informáticos en correos personales e institucionales. Nuestro objetivo es proporcionar un nivel avanzado de seguridad, dificultando así que los ciberdelincuentes estafen a los usuarios.</p>
@@ -14,7 +29,7 @@ correos electrónicos para comunicarse y realizar sus operaciones
 diarias, pero al mismo tiempo deben asegurarse de cumplir con las
 medidas de privacidad y protección de los datos personales.</p>
 
-## Problema: 
+## Problema
 <p>
 En la actualidad, garantizar la seguridad y privacidad de los usuarios en el entorno de
 los correos electrónicos es un desafío significativo ya que existen significativas 
@@ -27,17 +42,6 @@ considerando las medidas de privacidad y medidas de protección.
 #### Protection against cybernetics attacks
 #### Protección contra ataques cibernéticos
 
-<p>
-
-Sergio David Andrade Valencia
-
-Manuel David Sisa
-
-Facultad de Sistemas, Escuela Tecnológica Instituto Técnico Central
-
-22 de mayo del 2024
-
-</p>
 
 # 	Objetivos del proyecto
 
@@ -55,13 +59,13 @@ Crear una aplicación o un sistema operativo que permita aprender de los posible
 
 ## Sergio David Andrade Valencia
 
-## 2.	Objetivo Principal: 
+## 	Objetivo Principal: 
 
 <p>
 - Crear una página web que albergue una bandeja de entrada de correo electrónico que permitirá el envío y la recepción de correos electrónicos mediante un      sistema de cifrado. Se utilizarán tecnologías como HTML, CSS, Java, JavaScript, Servlets y JSP para lograr una implementación segura y eficiente.
 </p>
 
-## 3.	Objetivos Específicos: 
+## 	Objetivos Específicos: 
 
 <p>
 -	Implementar la bandeja de entrada utilizando herramientas como Visual Studio, Eclipse y Tomcat y GitHub.
@@ -72,12 +76,12 @@ Crear una aplicación o un sistema operativo que permita aprender de los posible
 
 ### Tareas y actividades a realisar por Manuel David Sisa Zúñiga
 
-## 1
+## Objetivi General
 <p>
 Crear la interfas grafica de inicio con el fin de atraer a los usuarios a nuetro sitio web de correo seguro. 
 </p>
 
-## 3.	Objetivos Específicos: 
+## 	Objetivos Específicos: 
 
 <p>
 *	Implementar los botoles o enlaser que permitan al usuarion navegar por nuestros servicios y ver los servicios que ofrecemos. 
@@ -87,6 +91,7 @@ Crear la interfas grafica de inicio con el fin de atraer a los usuarios a nuetro
 * Crear Servlets o JSP para establecer una comunicación cliente servidor.
 
 </p>
+
 <p>Para la respectiva implementacion de las tareas y actividades se trabajara con las siguientes herramientas:
 
   _**Editores de codigo fuente**_
@@ -124,18 +129,17 @@ programación, como HTML, Java y CSS, para crear una página web dinámica y rob
 </p>
 
 
-
  ## 5.	Requisitos del sitio Web: 
 
  <p>
 
--	Escabilidad: El sistema tendrá que ser capaz de enviar correos electrónicos de manera eficiente.
--	Funcionalidad: La bandeja de entrada tendrá lo estándar de un correo de enviar, recibir y filtrar
+* Escabilidad: El sistema tendrá que ser capaz de enviar correos electrónicos de manera eficiente.
+* Funcionalidad: La bandeja de entrada tendrá lo estándar de un correo de enviar, recibir y filtrar
 </p>
 
 ## 6.	Contribución: 
 <p>
--	Claramente manejar una aplicación diferente de correo permite una forma diferente de enviar correos de manera que este aplicativo siempre estará en mejora actualizándolo y agregándole más seguridad que un servicio de Outlook, Gmail etc. 
+* Claramente manejar una aplicación diferente de correo permite una forma diferente de enviar correos de manera que este aplicativo siempre estará en mejora actualizándolo y agregándole más seguridad que un servicio de Outlook, Gmail etc. 
 </p>
 
 
