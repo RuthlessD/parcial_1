@@ -61,8 +61,7 @@ Crear una aplicación o un sistema operativo que permita aprender de los posible
 ## 	Objetivo Principal: 
 
 <p>
-  
-* Crear una página web que albergue una bandeja de entrada de correo electrónico que permitirá el envío y la recepción de correos electrónicos mediante un      sistema de cifrado. Se utilizarán tecnologías como HTML, CSS, Java, JavaScript, Servlets y JSP para lograr una implementación segura y eficiente.
+Crear una página web que albergue una bandeja de entrada de correo electrónico que permitirá el envío y la recepción de correos electrónicos mediante un      sistema de cifrado. Se utilizarán tecnologías como HTML, CSS, Java, JavaScript, Servlets y JSP para lograr una implementación segura y eficiente.
 </p>
 
 ## 	Objetivos Específicos: 
