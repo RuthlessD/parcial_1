@@ -130,8 +130,25 @@ programación, como HTML, Java y CSS, para crear una página web dinámica y rob
 </p>
 
 <p>
-  (Sergio)
+  (pagina-sergio)
   Codigo Fuente:
+  ![Codigo](img-pagina(sergio)/Estructura.png)
+- Index.jsp: Es la interfaz de la bandeja de entrada
+  ![Codigo](img-pagina(sergio)/index.jsp- part-1.png)
+  ![Codigo](img-pagina(sergio)/index.jsp part-2.png)
+- correosEnviados.jsp: Muestra cuales son los correos que han sido enviados
+   ![Codigo](img-pagina(sergio)/correosEnviados.png)
+- correosEliminados.jsp: muestra los correos que se eliminaron
+![Codigo](img-pagina(sergio)/correoEliminado.png)
+-resultadoBusqueda.jsp: en el buscador busca los correos que ha enviado
+![Codigo](img-pagina(sergio)/buscarcorreo.png)
+-correo.java: se encagar de enviar el correo electronico y almacenar en la base de datos
+  ![Codigo](img-pagina(sergio)/correoservlet.png)
+- eliminar.java ejecuta la accion de eliminar el correo 
+   ![Codigo](img-pagina(sergio)/eliminarcorreoservlet.png)
+-correoServicioEJB
+ ![Codigo](img-pagina(sergio)/correoservioEJB.png)
+
   
 </p>
 
