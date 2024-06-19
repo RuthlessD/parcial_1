@@ -132,28 +132,28 @@ programación, como HTML, Java y CSS, para crear una página web dinámica y rob
 
 (pagina-sergio) Codigo Fuente:
 
-![Estructura](img-pagina(sergio)/Estructura.png)
+![Estructura](img-pagina(sergio)/Estructura.PNG)
 - Index.jsp: Es la interfaz de la bandeja de entrada
-  ![Index Parte 1](img-pagina(sergio)/index.jsp- part-1.png)
-  ![Index Parte 2](img-pagina(sergio)/index.jsp part-2.png)
+  ![Index Parte 1](img-pagina(sergio)/index.jsp- part-1.PNG)
+  ![Index Parte 2](img-pagina(sergio)/index.jsp part-2.PNG)
 
 - correosEnviados.jsp: Muestra cuales son los correos que han sido enviados
-  ![Correos Enviados](img-pagina(sergio)/correosEnviados.png)
+  ![Correos Enviados](img-pagina(sergio)/correosEnviados.PNG)
 
 - correosEliminados.jsp: Muestra los correos que se eliminaron
-  ![Correo Eliminado](img-pagina(sergio)/correoEliminado.png)
+  ![Correo Eliminado](img-pagina(sergio)/correoEliminado.PNG)
 
 - resultadoBusqueda.jsp: En el buscador busca los correos que ha enviado
-  ![Buscar Correo](img-pagina(sergio)/buscarcorreo.png)
+  ![Buscar Correo](img-pagina(sergio)/buscarcorreo.PNG)
 
 - correo.java: Se encarga de enviar el correo electrónico y almacenar en la base de datos
-  ![Correo Servlet](img-pagina(sergio)/correoservlet.png)
+  ![Correo Servlet](img-pagina(sergio)/correoservlet.PNG)
 
 - eliminar.java: Ejecuta la acción de eliminar el correo
-  ![Eliminar Correo Servlet](img-pagina(sergio)/eliminarcorreoservlet.png)
+  ![Eliminar Correo Servlet](img-pagina(sergio)/eliminarcorreoservlet.PNG)
 
 - correoServicioEJB: Funcionalidades del servicio EJB para correos
-  ![Correo Servicio EJB](img-pagina(sergio)/correoservioEJB.png)
+  ![Correo Servicio EJB](img-pagina(sergio)/correoservioEJB.PNG)
 
 
 
