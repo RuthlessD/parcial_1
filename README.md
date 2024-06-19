@@ -156,6 +156,11 @@ programación, como HTML, Java y CSS, para crear una página web dinámica y rob
   ![Correo Servicio EJB](img-pagina(sergio)/correoservioEJB.PNG)
 
 
+### (Pagina-Manuel) Codigo Fuente:
+![Formulario](img-pagina(sergio)/n1.PNG)
+
+![Tabla de Comentarios](img-pagina(sergio)/n2.PNG)
+ 
 
  ## 5.	Requisitos del sitio Web: 
 
