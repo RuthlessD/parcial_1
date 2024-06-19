@@ -157,10 +157,22 @@ programación, como HTML, Java y CSS, para crear una página web dinámica y rob
 
 
 ### (Pagina-Manuel) Codigo Fuente:
-![Formulario](img-pagina(sergio)/n1.PNG)
+![Formulario](img-pagina(sergio)/n1.png)
 
-![Tabla de Comentarios](img-pagina(sergio)/n2.PNG)
+![Tabla de Comentarios](img-pagina(sergio)/n2.png)
+# Estructura de directirios y archivos 
+![Estructura](img-pagina(sergio)/Estructura.png)
+# Permite ver una tabla con los datos de todos los usuarios que se quieren contactar con nuestra empresa.
+![Mostrar comentario](img-pagina(sergio)/MostrarComentario.png)
+
+![Tabla de Comentarios](img-pagina(sergio)/n2.png)
+
+# El Servlet define las bariables que se van a utilizar y los metodos getters y setters.
+![Servlet Comentarios](img-pagina(sergio)/ServletComentarios.png)
  
+ # El Servlet 
+![Servlet Contactanos](img-pagina(sergio)/ServletContactanos.png)
+
 
  ## 5.	Requisitos del sitio Web: 
 
