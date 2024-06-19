@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+body{
+    font-family: tymes 'Times New Roman', Times, serif;
+    background-color:rgb(92, 88, 84);
+
+}
+
+h1{
+    color:rgb(121, 12, 12);
+    font-size: 45px;
+}
+
+h2 {
+    color: rgb(245, 241, 241);
+}
+
+h3 {
+    color: rgb(121, 12, 12);
+}
+
+/* Etiqueta Inicio */
+
+.header {
+    /*  
+    display: flex;
+    align-items: center;
+  
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    position: fixed;
+    
+*/
+    padding: 10 px;
+    background-color: brown;
+    top: 0;
+    width: 100%;
+    z-index: 100%;
+    list-style-type: none;
+ 
+}
+.header-content  {
+
+    
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+.botonNavegacion {
+
+    margin-right: 20px;
+   
+}
+
+nav.correos {
+
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav.correos ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+}
+
+ul.correos li {
+   /* display: inline-block;*/
+    padding: 0px 20px;
+}
+a.correos {
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+a.menu {
+    color:black;
+    text-decoration: none;
+}
+nav.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color:brown;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+nav.menu h1 {
+    margin: 0;
+    color: rgb(102, 33, 33);
+}
+
+nav.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+}
+
+nav.menu ul li input[type="email"] {
+    padding: 5px;
+    width: 300px; 
+    margin: auto;
+}
+
+ul.menu li.menu {
+    display: inline-block;
+    padding: 0px 20px;
+    margin-right: +60px;
+    
+}
+
+
+
+div.nuevoCorreo {
+    padding-left: 100px;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+nav.barraNavegacion {
+    margin-top: 116px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: rgb(153, 37, 37);
+    width: 100px;
+    overflow: hidden;
+    transition: 0 20px 35px (0,0,0,1);
+}
+
+.desplegable {
+
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 40px 0 0 ;
+    background-color: brown;
+}
+
+.desplegable img {
+
+    width: 1;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+a{
+    position: relative;
+    color: rgb(2, 2, 2);
+    font-size: 14px;
+    display: table;
+    width: 100px;
+    padding: 10px;
+}
+
+.fas {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav.barraNavegacion-item {
+
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+a:hover{
+ background: rgb(134, 37, 37);
+}
+nav.barraNavegacion:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+.logout {
+    position: absolute;
+    bottom: +90px;
+}
+
+.oculto {
+    display: block;
+    display: none;
+}
+.form-content { 
+    background: linear-gradient(
+    50deg,
+    rgb(207, 208, 214, 0) 50%,
+    rgba(202, 203, 212, 0)),
+    url(/img/formulario.jpg);
+    background-position: +110px center;
+    background-repeat: no-repeat;
+    background-size: 48% 64%;
+    padding: 120px;
+    width: 2500px;
+    border-radius: 30px;
+    margin-top: -120px;
+    filter: contrast(120%) brightness(110%);
+   
+}
+.form-content h2 {
+color: rgb(5, 5, 5);
+font-size: 40px;
+margin-bottom: 25px;
+margin-left: +500px; 
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    font-size: 17px;
+    color: blue;
+    margin-bottom: 10px;
+
+}
+
+input, textarea {
+
+    padding: 17px 14px;
+    background-color: rgb(49, 40, 40);
+    border: 0;
+    font-size: 15px;
+    color: beige;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+:focus {
+    outline: lpx solid;
+}
+
+.btn {
+    background-color:aqua;
+    width: 150px;
+    align-self: flex-end;
+    cursor: pointer;
+
+}
+.btn:hover {
+    background-color:aqua;
+}
+@media (max-width:991px) {
+    body{
+        padding: 30px;
+    }
+    .form-content {
+        width: 100px;
+    }
+    form {
+        width: 100px;
+    }
+    
+}
+.ocultof {
+display: none;
+display: block;
+
+}
