@@ -77,23 +77,21 @@ Crear una página web que albergue una bandeja de entrada de correo electrónico
 ### Tareas y actividades a realisar por Manuel David Sisa Zúñiga
 
 ## Objetivi General
-<p>
-Crear la interfas grafica de inicio con el fin de atraer a los usuarios a nuetro sitio web de correo seguro. 
-</p>
+<p>Crear la interfaz gráfica de inicio para atraer a los usuarios a nuestro sitio web de correo seguro.</p>
 
 ## 	Objetivos Específicos: 
 
 <p>
   
-  * Implementar los botoles o enlaser que permitan al usuarion navegar por nuestros servicios y ver los servicios que ofrecemos. 
+  * Implementar botones o enlaces que permitan a los usuarios navegar por nuestros servicios y ver los servicios que ofrecemos.
 
-+	Desarrollar un aparatado de contactanos en la cual le permita a los usuarios comunicasre por medio de un formulario.
++	Desarrollar una sección de "Contáctanos" que permita a los usuarios comunicarse mediante un formulario.
   
-+ Crear Servlets o JSP para establecer una comunicación cliente servidor.
++ Crear Servlets o JSP para establecer comunicación cliente-servidor.
 
 </p>
 
-<p>Para la respectiva implementacion de las tareas y actividades se trabajara con las siguientes herramientas:
+<p>Para la respectiva implementación de las tareas y actividades se trabajarán con las siguientes herramientas:</p>
 
   _**Editores de codigo fuente**_
 
@@ -105,6 +103,12 @@ _**Lenguajes de programacion**_
 
 * Java
 
+* JSP (JavaServer Pages)
+
+* JSTP (JavaServer Pages Standard Tag Library)
+
+* EJB (Enterprise JavaBeans)
+
 * Javascript
 
 * HTML 5
@@ -112,7 +116,10 @@ _**Lenguajes de programacion**_
 * CSS
 
 _**Base de datos**_
-</p>
+
+* MySQL
+
+
 
 
  ## 4.	Implementación:
@@ -157,21 +164,33 @@ programación, como HTML, Java y CSS, para crear una página web dinámica y rob
 
 
 ## (Pagina-Manuel) Codigo Fuente:
-![Formulario](img-pagina(sergio)/n1.png)
+<p> 
+Para ejecutar la interfaz de inicio es necesario descargar la carpeta denominada Proyecto_2, la cual contiene todos los directorios, archivos y librerías necesarios para la ejecución en Eclipse.
 
-![Tabla de Comentarios](img-pagina(sergio)/n2.png)
-#### Estructura de directirios y archivos 
-![Estructura](img-pagina(sergio)/Estructura.png)
+Dentro de esta carpeta se encuentra toda la información detallada sobre lo que es SegiryMail. Se puede navegar mediante los botones ubicados en la parte superior, los cuales dirigen a los diferentes archivos de la página. Al posicionarse en el botón "Nosotros", se despliegan otros botones, incluido "Contáctanos", en el cual se implementa un video con un formulario compuesto por JSP, JSTL y Servlets, los cuales permiten su funcionalidad.
+</p>
+
+* ![Formulario](img-pagina(sergio)/n1.png)
+
+*![Tabla de Comentarios](img-pagina(sergio)/n2.png)
+
+#### Estructura de directirios y archivos.
+
+* ![Estructura](img-pagina(sergio)/Estructura.png)
+
 #### Permite ver una tabla con los datos de todos los usuarios que se quieren contactar con nuestra empresa.
-![Mostrar comentario](img-pagina(sergio)/MostrarComentario.png)
 
-![Tabla de Comentarios](img-pagina(sergio)/n2.png)
+* ![Mostrar comentario](img-pagina(sergio)/MostrarComentario.png)
+
+*![Tabla de Comentarios](img-pagina(sergio)/n2.png)
 
 #### El Servlet define las bariables que se van a utilizar y los metodos getters y setters.
-![Servlet Comentarios](img-pagina(sergio)/ServletComentario.png)
+
+* ![Servlet Comentarios](img-pagina(sergio)/ServletComentario.png)
  
  #### El Servlet 
-![Servlet Contactanos](img-pagina(sergio)/ServletContactanos.png)
+
+* ![Servlet Contactanos](img-pagina(sergio)/ServletContactanos.png)
 
 
  ## 5.	Requisitos del sitio Web: 
